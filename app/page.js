@@ -4,18 +4,6 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { useState } from "react";
 
-// export const metadata = {
-//   title: "ByPay - The New PaaS",
-//   description:
-//     "An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more.",
-//   openGraph: {
-//     title: "ByPay - The New PaaS",
-//     description:
-//       "An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more.",
-//     images: ["/opengraph-image.jpg"],
-//   },
-// };
-
 export default function Home() {
   const [email, setEmail] = useState("");
 
@@ -24,24 +12,6 @@ export default function Home() {
   };
   return (
     <div className={styles.container}>
-      {/* <Head>
-        <title>ByPay - The New PaaS</title>
-        <meta
-          name="description"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
-        <meta property="og:image" content="<generated>" />
-        <meta property="og:image:type" content="<generated>" />
-        <meta property="og:image:width" content="<generated>" />
-        <meta property="og:image:height" content="<generated>" />
-        <meta property="og:image:alt" content="ByPay" />
-        <meta name="twitter:image" content="<generated>" />
-        <meta name="twitter:image:type" content="<generated>" />
-        <meta name="twitter:image:width" content="<generated>" />
-        <meta name="twitter:image:height" content="<generated>" />
-        <meta property="twitter:image:alt" content="ByPay" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head> */}
       <header className={styles.header}>
         <a href="/" rel="noopener noreferrer">
           <Image
