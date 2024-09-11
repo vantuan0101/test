@@ -18,38 +18,16 @@ export default function Home() {
           name="description"
           content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
         />
-        <meta
-          property="og:image"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
-        <meta
-          property="og:image:type"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
-        <meta
-          property="og:image:width"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
-        <meta
-          property="og:image:height"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
-        <meta
-          name="twitter:image"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
-        <meta
-          name="twitter:image:type"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
-        <meta
-          name="twitter:image:width"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
-        <meta
-          name="twitter:image:height"
-          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
-        />
+        <meta property="og:image" content="<generated>" />
+        <meta property="og:image:type" content="<generated>" />
+        <meta property="og:image:width" content="<generated>" />
+        <meta property="og:image:height" content="<generated>" />
+        <meta property="og:image:alt" content="ByPay" />
+        <meta name="twitter:image" content="<generated>" />
+        <meta name="twitter:image:type" content="<generated>" />
+        <meta name="twitter:image:width" content="<generated>" />
+        <meta name="twitter:image:height" content="<generated>" />
+        <meta property="twitter:image:alt" content="ByPay" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <header className={styles.header}>
