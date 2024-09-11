@@ -13,6 +13,12 @@ export const metadata = {
       "An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more.",
     images: ["/opengraph-image.jpg"],
   },
+  twitter: {
+    title: "ByPay - The New PaaS",
+    description:
+      "An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more.",
+    images: ["/opengraph-image.jpg"],
+  },
 };
 
 export default function RootLayout({ children }) {
