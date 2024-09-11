@@ -24,7 +24,7 @@ export default function Home() {
   };
   return (
     <div className={styles.container}>
-      {/* <Head>
+      <Head>
         <title>ByPay - The New PaaS</title>
         <meta
           name="description"
@@ -41,7 +41,7 @@ export default function Home() {
         <meta name="twitter:image:height" content="<generated>" />
         <meta property="twitter:image:alt" content="ByPay" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head> */}
+      </Head>
       <header className={styles.header}>
         <a href="/" rel="noopener noreferrer">
           <Image
