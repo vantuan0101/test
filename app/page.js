@@ -18,7 +18,39 @@ export default function Home() {
           name="description"
           content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:image"
+          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
+        />
+        <meta
+          property="og:image:type"
+          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
+        />
+        <meta
+          property="og:image:width"
+          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
+        />
+        <meta
+          property="og:image:height"
+          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
+        />
+        <meta
+          name="twitter:image"
+          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
+        />
+        <meta
+          name="twitter:image:type"
+          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
+        />
+        <meta
+          name="twitter:image:width"
+          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
+        />
+        <meta
+          name="twitter:image:height"
+          content="An all-in-one platform offering Cloud infrastructure, Blogging, Trading bot, and much more."
+        />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <header className={styles.header}>
         <a href="/" rel="noopener noreferrer">
@@ -37,8 +69,8 @@ export default function Home() {
         <div className={styles.left}>
           <h2 className={styles.line1}>Introducing The New PaaS</h2>
           <p className={styles.line2}>
-            An all-in-one platform offering Cloud infrastructure (ByAtlas),
-            Blogging (ByNews), Trading bot (ByTrade), and much more.
+            An all-in-one platform offering ByAtlas (Cloud infrastructure),
+            ByNews (Blogging), ByTrade (Trading bot), and much more.
           </p>
           <div className={(styles.line3, styles.formGroup)}>
             <input
